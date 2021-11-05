@@ -1,10 +1,6 @@
 name: Whitesource Prioritize Python
 
-on:
-  push:
-    branches: [ release* ]
-  pull_request:
-    branches: [ release* ]
+on: workflow_dispatch
 
 jobs:
   prioritize:
